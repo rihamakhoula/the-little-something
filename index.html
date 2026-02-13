@@ -113,67 +113,31 @@ Looking forward to being spoiled even more lol 😄
 
 <script>
 /* ✍️ EDIT YOUR QUIZ HERE */
- {
+const quizzes = [
+  {
     question: "When did we first meet?",
     options: [
-      { 
-        text: "28.08.25", 
-        correct: true, 
-        message: "Okay good. You remember. That mattered ❤️" 
-      },
-      { 
-        text: "14.02.25", 
-        correct: false, 
-        message: "Hmm… knew you forgot 💔" 
-      },
-      { 
-        text: "01.01.25", 
-        correct: false, 
-        message: "Wow. That confident and still wrong 😌" 
-      }
+      { text: "28.08.25", correct: true, message: "Okay good. You remember. That mattered ❤️" },
+      { text: "14.02.25", correct: false, message: "Hmm… knew you forgot 💔" },
+      { text: "01.01.25", correct: false, message: "Wow. That confident and still wrong 😌" }
     ]
   },
   {
     question: "How many dates have we gone on so far?",
     options: [
-      { 
-        text: "4", 
-        correct: true, 
-        message: "Yes. Four. And somehow each one stayed with me." 
-      },
-      { 
-        text: "2", 
-        correct: false, 
-        message: "Only two? That’s unfair to the other memories." 
-      },
-      { 
-        text: "5", 
-        correct: false, 
-        message: "Optimistic. I like that. But no 😄" 
-      }
+      { text: "4", correct: true, message: "Yes. Four. And somehow each one stayed with me." },
+      { text: "2", correct: false, message: "Only two? That’s unfair to the other memories." },
+      { text: "5", correct: false, message: "Optimistic. I like that. But no 😄" }
     ]
   },
   {
-  question: "Who fell first?",
-  options: [
-    { 
-      text: "You 😌", 
-      correct: True, 
-      message: "I mean… obviously. I saw it in your eyes." 
-    },
-    { 
-      text: "Me 🙄", 
-      correct: False, 
-      message: "Oh wow. Bold of you to lie like that." 
-    },
-    { 
-      text: "At the same time", 
-      correct: Nope, 
-      message: "That’s cute… but no." 
-    }
-  ]
-}
-
+    question: "Who fell first?",
+    options: [
+      { text: "You 😌", correct: true, message: "I mean… obviously. I saw it in your eyes." },
+      { text: "Me 🙄", correct: false, message: "Oh wow. Bold of you to lie like that." },
+      { text: "At the same time", correct: false, message: "That’s cute… but no." }
+    ]
+  }
 ];
 
 /* QUIZ LOGIC */
